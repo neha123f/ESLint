@@ -3,6 +3,7 @@
 env:
   es2021: true
   browser: true
+  node: true  # Add this line to specify Node.js environment
 
 extends:
   - eslint:recommended
