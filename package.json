@@ -9,7 +9,7 @@
     "dev": "nodemon ./server.js --ignore public/",
     "production": "NODE_ENV=production",
     "setup": "node ./setup/setup.js",
-    "lint:js": "eslint src/**/*.js",
+    "lint:js": "eslint models/*.js",
     "lint": "npm run lint:js"
   },
   "dependencies": {
