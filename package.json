@@ -39,4 +39,9 @@
     "url": "https://github.com/idurar/starter-antd-admin-crud-auth-mern/issues"
   },
   "homepage": "https://github.com/idurar/starter-antd-admin-crud-auth-mern#readme"
+},
+"scripts": {
+    "lint:js": "eslint src/**/*.js",
+    "lint": "npm run lint:js"
+  }
 }
