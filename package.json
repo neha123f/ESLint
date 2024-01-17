@@ -8,7 +8,9 @@
     "start": "node ./server.js",
     "dev": "nodemon ./server.js --ignore public/",
     "production": "NODE_ENV=production",
-    "setup": "node ./setup/setup.js"
+    "setup": "node ./setup/setup.js",
+    "lint:js": "eslint src/**/*.js",
+    "lint": "npm run lint:js"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
@@ -39,10 +41,4 @@
     "url": "https://github.com/idurar/starter-antd-admin-crud-auth-mern/issues"
   },
   "homepage": "https://github.com/idurar/starter-antd-admin-crud-auth-mern#readme"
-},
-{
-  "scripts": {
-    "lint:js": "eslint src/**/*.js",
-    "lint": "npm run lint:js"
-  }
 }
